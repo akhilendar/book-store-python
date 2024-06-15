@@ -127,3 +127,14 @@ class Book:
     def __repr__(self):
         return f"Book({self.title}, {self.author}, {self.isbn}, {self.price})"
 ```
+
+### Application Logic
+
+#### `src/app.py`
+
+Implements the main logic for the Book Store application, including:
+
+- Adding a book
+- Viewing all books
+- Searching for books by title or author
+- Deleting a book
